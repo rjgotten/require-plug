@@ -33,7 +33,7 @@ Then, to load your master library along with all of its plugins, use the `plug!`
 prefix ID:
 
 ```javascript
-define(['plug!jquery'], function ( $ ) {
+define(["plug!jquery"], function ( $ ) {
 	// jQuery will have been plugged with jQuery UI and the validation
 	// plugin by the time this function is called.
     
