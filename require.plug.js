@@ -12,7 +12,7 @@
 			require([ name ], function( value ) {			
 				require( plugins, function() {
 					load( value );
-				}			
+				});			
 			});			
 		}
 	}
